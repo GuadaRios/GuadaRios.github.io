@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif
+    
+}
+/**comentario css
+*/
+a, a li{
+    text-decoration: none;
+    border-radius: 10px;
+  
+}
+
+ li{
+    margin: 20px;
+}
+
+.img-cv{
+    width: 10%;
+    height: 10%;
+    border-radius:430px;
+    margin: 10px;
+}
+
+
+.nombre, .cargo{
+    margin:10px;
+}
+
+
+#principal{
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Formacion-detalles{
+    border: 5px solid salmon ;
+    width: 300px;
+    margin: 20px ;
+}
+    
+h3{
+    padding: 40px;
+}
+
+
+.ListadeExperiencias{
+    display: flex;
+   
+  
+}
+
+.Experiencia-detalles{
+    border: 5px solid salmon;
+    width: 400px;
+    margin: 20px;
+    
+}
+
+h4{
+    padding: 20px;
+}
+
+p{
+    padding: 10;
+}
+
+.Experiencia-detalles img{
+    width: 100%;
+
+}
+header{
+    position: sticky;
+    top: o;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: salmon;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(241, 239, 239);
+}
+
+
+
+.formulario{
+    width: 100%;
+    display:flex;
+    margin:20px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea{
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.contacto{
+    font-size: 20px;
+    margin-left: 0;
+}
+
+button{
+    width: 20%;
+    margin: 0;
+}
+
+
+footer{
+    background-color: rgb(153, 152, 152);
+}
